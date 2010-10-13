@@ -9,7 +9,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 android:id="@+id/scrollview"
 android:layout_width="310px"
 android:layout_height="310px"
-android:background="@drawable/white"
+android:background="#FFF"
 android:layout_below="@+id/type"
 android:layout_centerHorizontal="true"
 >
