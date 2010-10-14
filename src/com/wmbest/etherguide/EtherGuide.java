@@ -56,5 +56,6 @@ public class EtherGuide extends Activity
 		adWhirlLayoutParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM);
 		layout.addView(adWhirlLayout, adWhirlLayoutParams);
 		layout.invalidate();
+
     }
 }
