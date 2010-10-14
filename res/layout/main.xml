@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-android:id="@+id/widget29"
+android:id="@+id/layout_main"
 android:layout_width="fill_parent"
 android:layout_height="fill_parent"
 xmlns:android="http://schemas.android.com/apk/res/android"
@@ -8,13 +8,14 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 <ScrollView
 android:id="@+id/scrollview"
 android:layout_width="310px"
-android:layout_height="310px"
+android:layout_height="400px"
 android:background="#FFF"
 android:layout_below="@+id/type"
 android:layout_centerHorizontal="true"
 >
 <ImageView
 android:id="@+id/image"
+android:src="@drawable/ethernetb"
 android:layout_width="wrap_content"
 android:layout_height="wrap_content"
 >
@@ -29,13 +30,4 @@ android:layout_alignParentTop="true"
 android:layout_centerHorizontal="true"
 >
 </Spinner>
-<TextView
-android:id="@+id/ads"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:text="TextView"
-android:layout_alignParentBottom="true"
-android:layout_centerHorizontal="true"
->
-</TextView>
 </RelativeLayout>

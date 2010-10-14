@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">EtherGuide</string>
+	<string-array name="guidelist">
+		<item name="T568A">T568A</item>
+		<item name="T568B">T568B</item>
+	</string-array>
 </resources>
